@@ -1,0 +1,48 @@
+.base {
+  &__container {
+    position: relative;
+    width: fit-content;
+    margin: 20px;
+  }
+
+  &__svg-container {
+    background-color: white;
+    cursor: pointer;
+  }
+
+  &__gridlines {
+    color: #cdebf9;
+  }
+
+  &__axis {
+    color: #24292f;
+    stroke-width: 4;
+
+    &-label {
+      stroke: #24292f;
+      font-size: 14px;
+    }
+  }
+
+  &__tooltip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #24292f;
+    color: #58e08f;
+    border: 1px solid #58e08f;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    opacity: 0;
+  }
+}
+
+// .base__axis.axis__x {
+//   display: flex;
+//   justify-content: space-between;
+
+//   .tick {
+//     transform: rotate(30deg);
+//   }
+// }

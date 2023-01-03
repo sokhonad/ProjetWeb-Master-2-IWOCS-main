@@ -1,0 +1,11 @@
+<svg width="280" height="151" viewBox="0 0 280 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 130C16.6667 130.333 34.8 130.4 38 128C42 125 39 119 49 117.5C59 116 63.5 115.5 67.5 113C71.5 110.5 87.5 99 96.5 100C105.5 101 126.5 99 130.5 96.5C134.5 94 146.5 80 155.5 79C164.5 78 190 72.5 200.5 63C211 53.5 219.5 41.5 221.5 34.5C223.5 27.5 237 18.5 246.5 15.5C254.1 13.1 261 11.5 263.5 11" stroke="#58E08F" stroke-width="3" stroke-linecap="round"/>
+<line x1="7.5" y1="2.5" x2="7.49999" y2="147.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<line x1="277.5" y1="148.5" x2="7.5" y2="148.5" stroke="white" stroke-width="5" stroke-linecap="round"/>
+<line x1="1.5" y1="21.5" x2="8.5" y2="21.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="42.5" x2="8.5" y2="42.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="63.5" x2="8.5" y2="63.5" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="8.5" y2="-1.5" transform="matrix(1 9.3251e-08 8.19589e-08 -1 0 128)" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="8.5" y2="-1.5" transform="matrix(1 9.03369e-08 8.46027e-08 -1 0 107)" stroke="white" stroke-width="3" stroke-linecap="round"/>
+<line x1="1.5" y1="-1.5" x2="8.5" y2="-1.5" transform="matrix(1 1.45705e-08 5.24537e-07 -1 0 86)" stroke="white" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,8 @@
+->downgrade to node 16
+->run npm outdated
+->update packagejson file with the required dependencies
+->import properly mouse and d3.mouse delete d3
+->for airbnb
+sudo npm install -g install-peerdeps
+install-peerdeps --dev eslint-config-airbnb
+install-peerdeps --dev eslint-config-airbnb-base

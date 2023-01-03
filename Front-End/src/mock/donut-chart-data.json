@@ -1,0 +1,15 @@
+[
+  { "region": "Auvergne-Rhône-Alpes", "sales": 0.2 },
+  { "region": "Bourgogne-Franche-Comté", "sales": 0.01 },
+  { "region": "Bretagne", "sales": 0.11 },
+  { "region": "Centre-Val de Loire", "sales": 0.12 },
+  { "region": "Corse", "sales": 0.12 },
+  { "region": "Grand Est", "sales": 0.2 },
+  { "region": "Hauts-de-France", "sales": 0.01 },
+  { "region": "Ile-de-France", "sales": 0.01 },
+  { "region": "Normandie", "sales": 0.01 },
+  { "region": "Nouvelle-Aquitaine", "sales": 0.02 },
+  { "region": "Occitanie", "sales": 0.03 },
+  { "region": "Pays de la Loire", "sales": 0.03 },
+  { "region": "Provence-Alpes-Côte d’Azur.", "sales": 0.04 }
+]

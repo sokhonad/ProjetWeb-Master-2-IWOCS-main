@@ -1,0 +1,210 @@
+body,
+html,
+#root {
+    min-height: 100vh;
+    background-color: $dark-background;
+    color: $white-text;
+    font-family: "Inter", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.hero-title {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 72px;
+}
+
+.hero-subtitle {
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.hero-presentation {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    a {
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+
+        margin: 15px;
+
+        h2 {
+            font-size: 24px;
+        }
+
+        p {
+            max-width: 290px;
+            height: 6rem;
+            margin-top: 5px;
+            color: $grey-text;
+            font-size: 18px;
+
+            span {
+                color: $white-text;
+                font-weight: bold;
+            }
+        }
+
+        img {
+            margin-top: 15px;
+        }
+    }
+
+    a:hover {
+        h2 {
+            transition: 0.3s;
+            color: $chart-green;
+        }
+
+        p {
+            span {
+                transition: 0.3s;
+                color: $chart-green;
+            }
+        }
+    }
+}
+
+.NavBar {
+    min-height: 90px;
+    background-color: $dark-background;
+
+    color: $white-text;
+
+    display: flex;
+    align-items: center;
+
+    padding-left: 40px;
+
+    a {
+        margin-right: 30px;
+        color: inherit; /* blue colors for links too */
+        text-decoration: inherit; /* no underline */
+    }
+
+    .active {
+        color: $chart-green;
+    }
+}
+
+.chart-page {
+    display: flex;
+    flex-direction: column;
+
+    height: 100vh;
+
+    .container {
+        flex-grow: 1;
+        background-color: $white-text;
+
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+
+        div.titles {
+            margin-top: 4rem;
+            width: fit-content;
+
+            h1 {
+                color: $dark-text;
+                font-size: 48px;
+            }
+
+            h2 {
+                color: $grey-text;
+                font-size: 24px;
+            }
+        }
+
+        .content {
+            margin-top: 2rem;
+
+            display: flex;
+            height: 100%;
+
+            min-width: 90%;
+
+            flex-direction: row;
+
+            align-items: center;
+
+            p {
+                max-width: 300px;
+            }
+            
+            .graph-desc {
+                color: $grey-text;
+                width: 30%;
+
+                span {
+                    font-weight: bold;
+                    color: $dark-text;
+                }
+
+                span.active {
+                    color: $chart-green;
+                }
+
+                .link {
+                    text-decoration: none;
+                }
+
+                .link:hover {
+                    span {
+                        color: $chart-green;
+                    }
+                }
+            }
+
+            .loading {
+                text-align: center;
+                font-weight: bold;
+                color: $chart-green;
+            }
+
+            .graph, .loading {
+                width: 65%;
+            }
+        }
+    }
+}
+
+.sub-title select {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+.sub-title:hover select {
+    transition: border 0.2s;
+    color: $dark-text;
+    border: 2px solid $grey-text;
+    border-radius: 5px;
+}
+
+.sub-title select {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
+}
+
+.sub-title:hover select {
+    transition: border 0.2s;
+    color: $dark-text;
+    border: 2px solid $grey-text;
+    border-radius: 5px;
+}
